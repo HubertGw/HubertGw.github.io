@@ -1,0 +1,38 @@
+body {
+  font-family: "Libre Baskerville";
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #5a5043;
+  user-select: none;
+}
+
+body * {
+  opacity: 1;
+}
+
+* {
+  box-sizing: border-box;
+  opacity: 1;
+}
+
+#root {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.board,
+.logs {
+  background-color: #e5e5e5;
+}
+
+.heading {
+  color: #ffffff;
+  border-radius: 1em;
+  padding: 0 1.5em;
+  letter-spacing: 0.5em;
+}

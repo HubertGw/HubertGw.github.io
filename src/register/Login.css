@@ -1,0 +1,23 @@
+.Login {
+    padding: 60px 0;
+}
+
+#root > div > div.Login > form > div:nth-child(2) > label {
+    display: block;
+}
+
+.Login Form {
+    margin: 0 auto;
+    max-width: 320px;
+}
+
+.toRegisterPanel {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.RegisterHeader, .LoginHeader {
+    margin: 0 auto;
+    max-width: 320px;
+    padding: 0 0 20px;
+}

@@ -1,0 +1,9 @@
+.link {
+    text-decoration: none;
+    color: blue;
+    margin-right: 10px;
+    &:hover {
+      color: red;
+    }
+  }
+  
